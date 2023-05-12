@@ -8,6 +8,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <Compile Remove="00\**" />
+    <Compile Remove="01\**" />
+    <Compile Remove="02\**" />
+    <EmbeddedResource Remove="00\**" />
+    <EmbeddedResource Remove="01\**" />
+    <EmbeddedResource Remove="02\**" />
+    <None Remove="00\**" />
+    <None Remove="01\**" />
+    <None Remove="02\**" />
+  </ItemGroup>
+
+  <ItemGroup>
     <Compile Remove="00.cs" />
     <Compile Remove="01.cs" />
   </ItemGroup>
